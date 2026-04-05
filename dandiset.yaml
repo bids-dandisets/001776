@@ -3,23 +3,76 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 16615447799
+  numberOfFiles: 483
+  numberOfSubjects: 51
   schemaKey: AssetsSummary
-citation: Mestern, Samuel (2026) Intracellular Recordings for "Single neuron diversity
-  supports area functional specialization along the visual cortical pathways" (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001776/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9483
+    name: Callithrix jacchus - Common marmoset
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampStimulusSeries
+  - CurrentClampSeries
+  - ProcessingModule
+citation: Feyerabend, Michael; Pommer, Stefan; Mestern, Samuel (2026) Intracellular
+  Recordings for "Single neuron diversity supports area functional specialization
+  along the visual cortical pathways" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001776/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/02grkyz14
+    name: Schulich School of Medicine and Dentistry, Western University, London, Ontario,
+      Canada
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Feyerabend, Michael
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Researcher
+  - dcite:Conceptualization
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01y9bpm73
+    name: Institute for Neuroanatomy, University Medical Center Göttingen, Georg-August
+      University, Göttingen, Germany
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Pommer, Stefan
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Researcher
+  schemaKey: Person
 - affiliation: []
   email: smestern@gmail.com
   includeInCitation: true
   name: Mestern, Samuel
   roleName:
   - dcite:ContactPerson
+  - dcite:DataManager
   schemaKey: Person
 dateCreated: '2026-04-02T17:33:08.732221+00:00'
 description: "This dandiset includes intracellular patch-clamp electrophysiology recordings
@@ -28,6 +81,7 @@ description: "This dandiset includes intracellular patch-clamp electrophysiology
   regions and layers in the NHP cortex.\nSome files contain post-hoc reconstruction
   data under the heading \"processing/morphology/SWC\". Histological information (layer,
   etc.) is found under \"processing/misc/histology\""
+ethicsApproval: []
 id: DANDI:001776/draft
 identifier: DANDI:001776
 license:
@@ -36,8 +90,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001776/versions/draft/assets/
 name: Intracellular Recordings for "Single neuron diversity supports area functional
   specialization along the visual cortical pathways"
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001776/draft
 version: draft
+wasGeneratedBy: []
