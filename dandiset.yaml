@@ -75,22 +75,36 @@ contributor:
   - dcite:DataManager
   schemaKey: Person
 dateCreated: '2026-04-02T17:33:08.732221+00:00'
-description: "This dandiset includes intracellular patch-clamp electrophysiology recordings
-  supporting the paper \"Single neuron diversity supports area functional specialization
-  along the visual cortical pathways\"\nThe recordings were performed across multiple
-  regions and layers in the NHP cortex.\nSome files contain post-hoc reconstruction
-  data under the heading \"processing/morphology/SWC\". Histological information (layer,
-  etc.) is found under \"processing/misc/histology\""
+description: 'This dandiset includes intracellular patch-clamp electrophysiology recordings
+  supporting the paper "Single neuron diversity supports area functional specialization
+  along the visual cortical pathways". When utilizing the data please cite the primary
+  paper: <TBD> The recordings were performed across multiple regions and layers in
+  the NHP cortex.Some files contain post-hoc reconstruction data under the heading
+  "processing/morphology/SWC". Histological information (layer, etc.) is found under
+  "processing/misc/histology"'
 ethicsApproval: []
 id: DANDI:001776/draft
 identifier: DANDI:001776
+keywords:
+- Non-human primate
+- intracellular electrophysiology
+- patch-clamp electrophysiology
+- cortex
+- marmoset
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001776/versions/draft/assets/
 name: Intracellular Recordings for "Single neuron diversity supports area functional
   specialization along the visual cortical pathways"
-relatedResource: []
+relatedResource:
+- identifier: PrimateDatabase
+  name: PrimateDatabase
+  relation: dcite:IsSupplementTo
+  repository: PrimateDatabase
+  resourceType: dcite:InteractiveResource
+  schemaKey: Resource
+  url: https://primatedatabase.com/ephysCT
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
