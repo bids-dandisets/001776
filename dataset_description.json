@@ -1,0 +1,20 @@
+{
+    "Name": "Intracellular Recordings for \"Single neuron diversity supports area functional specialization along the visual cortical pathways\"",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dandiset includes intracellular patch-clamp electrophysiology recordings supporting the paper \"Single neuron diversity supports area functional specialization along the visual cortical pathways\". When utilizing the data please cite the primary paper: <TBD> The recordings were performed across multiple regions and layers in the NHP cortex.Some files contain post-hoc reconstruction data under the heading \"processing/morphology/SWC\". Histological information (layer, etc.) is found under \"processing/misc/histology\"",
+    "DatasetType": "raw",
+    "Authors": [
+        "Feyerabend, Michael",
+        "Pommer, Stefan"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.12.1.dev6+gf29fa0039",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
